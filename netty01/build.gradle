@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'con.wrial'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    testCompile(
+//        "junit:junit:4.12"
+//    )
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.37.Final'
+
+}
