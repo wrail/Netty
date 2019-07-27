@@ -12,6 +12,8 @@ import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.*;
 import io.netty.util.CharsetUtil;
 
+import java.net.URI;
+
 public class DemoHttpServerHandler extends SimpleChannelInboundHandler<HttpObject> {
 
     /*
@@ -25,6 +27,12 @@ public class DemoHttpServerHandler extends SimpleChannelInboundHandler<HttpObjec
             HttpRequest httpRequest = (HttpRequest) msg;
 
             System.out.println("请求方法名：" + httpRequest.method().name());
+            URI uri = new URI(httpRequest.uri());
+            //网站头像（有些浏览器请求两次就是因为还去请求了头像）
+            if ("/favicon.ico".equals(uri.getPath())){
+                System.out.println("请求favicon.ico");
+                return;
+            }
 
             ByteBuf content = Unpooled.copiedBuffer("Hello World", CharsetUtil.UTF_8);
             FullHttpResponse response = new DefaultFullHttpResponse
@@ -35,5 +43,35 @@ public class DemoHttpServerHandler extends SimpleChannelInboundHandler<HttpObjec
             ctx.writeAndFlush(response);
             ctx.channel().close();
         }
+    }
+
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("channel active");
+        super.channelActive(ctx);
+    }
+
+    @Override
+    public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("channel registered");
+        super.channelRegistered(ctx);
+    }
+
+    @Override
+    public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("handler added");
+        super.handlerAdded(ctx);
+    }
+
+    @Override
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("channel inactive");
+        super.channelInactive(ctx);
+    }
+
+    @Override
+    public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("channel unregistered");
+        super.channelUnregistered(ctx);
     }
 }
