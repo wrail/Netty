@@ -15,6 +15,8 @@ import io.netty.handler.logging.LoggingHandler;
 
 /*
 客户端使用MyChatClient的客户端，如果5s不做任何事就会有读空闲提示
+如果客户端给服务端提交数据，但是并没有写超过7s，就是写空闲
+如果把allIdleTime设置为3s，在这三秒内没进行读或者写都会提升读写空闲
  */
 public class MyServer {
 
