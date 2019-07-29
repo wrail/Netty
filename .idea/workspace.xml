@@ -2,45 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f3fd7db-a7b7-497f-baaf-0e36a4c86c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.5.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_all_4_1_37_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/netty01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/netty01.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/netty01.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/build/classes/java/main/com/wrial/netty/DemoHttpServerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/build/classes/java/main/com/wrial/netty/DemoServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/build/classes/java/main/com/wrial/netty/DemoServerInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/build/libs/netty01-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoHttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/netty01.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/netty01.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/.gradle/5.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/.gradle/5.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/.gradle/5.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/build/classes/java/main/com/wrial/netty/DemoHttpServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/build/classes/java/main/com/wrial/netty/DemoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/build/classes/java/main/com/wrial/netty/DemoServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoHttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/webServer/DemoHttpServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/webServer/DemoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/webServer/DemoServerInitializer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/netty01/.gradle/" />
@@ -52,8 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/netty01">
@@ -91,21 +81,93 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty01/build.gradle">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="183">
+              <caret line="32" column="14" selection-start-line="19" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServer.java">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+            <state relative-caret-position="303">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-240">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,34 +176,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServerInitializer.java">
+        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="270">
+              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoHttpServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.37.Final/98c94025d17d2d5041d1007fc6a758249769f8c1/netty-all-4.1.37.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -168,14 +209,29 @@
       <list>
         <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServer.java" />
         <option value="$PROJECT_DIR$/netty01/build.gradle" />
-        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoHttpServerHandler.java" />
         <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoHttpServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/webServer/DemoHttpServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServerInitinalizer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClientInitializer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClientHandler.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClient.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerInitializer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientHandler.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientInitializer.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient01.java" />
+        <option value="$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerHandler.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1055" />
-    <option name="y" value="57" />
+    <option name="y" value="55" />
     <option name="width" value="845" />
     <option name="height" value="980" />
   </component>
@@ -185,11 +241,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="socketChat" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -198,9 +300,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -210,6 +318,11 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wrial.netty.socketChat" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,13 +336,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoServer">
-    <configuration name="DemoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wrial.netty.DemoServer" />
+  <component name="RunManager" selected="Application.MyChatClient01">
+    <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wrial.netty.socketChat.MyChatClient" />
       <module name="netty01.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wrial.netty.*" />
+          <option name="PATTERN" value="com.wrial.netty.socketChat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,29 +350,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="netty01 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/netty01" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="MyChatClient01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wrial.netty.socketChat.MyChatClient01" />
+      <module name="netty01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrial.netty.socketChat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wrial.netty.socketChat.MyChatServer" />
+      <module name="netty01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrial.netty.socketChat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wrial.netty.socket.MyClient" />
+      <module name="netty01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrial.netty.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wrial.netty.socket.MyServer" />
+      <module name="netty01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrial.netty.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoServer" />
-        <item itemvalue="Gradle.netty01 [dependencies]" />
+        <item itemvalue="Application.MyChatClient01" />
+        <item itemvalue="Application.MyChatClient" />
+        <item itemvalue="Application.MyChatServer" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -273,93 +422,241 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564188436667</updated>
-      <workItem from="1564188440565" duration="7248000" />
+      <workItem from="1564188440565" duration="9104000" />
+      <workItem from="1564309049004" duration="4434000" />
+      <workItem from="1564333368163" duration="38000" />
+      <workItem from="1564365748475" duration="7829000" />
     </task>
+    <task id="LOCAL-00001" summary="完善Netty  HttpDemo案例">
+      <created>1564242286928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564242286929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MyClient_test - 2019.07.29 at 01h 00m 16s.xml">
+      <configuration name="MyClient.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7248000" />
+    <option name="totallyTimeSpent" value="21405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28389263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33048433" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.390625" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23504274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" weight="0.3295302" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33048433" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善Netty  HttpDemo案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善Netty  HttpDemo案例" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/netty01/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.37.Final/98c94025d17d2d5041d1007fc6a758249769f8c1/netty-all-4.1.37.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty01/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="264">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoHttpServerHandler.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.37.Final/98c94025d17d2d5041d1007fc6a758249769f8c1/netty-all-4.1.37.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="768">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/webServer/DemoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServer.java">
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/webServer/DemoServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/DemoServerInitializer.java">
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="384">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/webServer/DemoHttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="32" column="14" selection-start-line="19" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socket/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatClient01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty01/src/main/java/com/wrial/netty/socketChat/MyChatServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

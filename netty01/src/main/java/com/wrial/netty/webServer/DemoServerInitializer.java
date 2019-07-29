@@ -1,4 +1,4 @@
-package com.wrial.netty;
+package com.wrial.netty.webServer;
 /*
  * @Author  Wrial
  * @Date Created in 11:47 2019/7/27
