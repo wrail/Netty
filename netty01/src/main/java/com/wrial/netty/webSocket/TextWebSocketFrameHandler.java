@@ -11,10 +11,10 @@ import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 
 import java.time.LocalDateTime;
 
-//不仅仅是字符串能解决的，因为还要和协议进行协调
-public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<TextWebSocketFrameHandler> {
+//不仅仅是字符串能解决的，因为还要和协议进行协调  TextWebSocketFrame
+public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrameHandler msg) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) throws Exception {
         System.out.println("收到消息"+msg);
         //直接写字符串是发送不了的
         ctx.channel().writeAndFlush(new TextWebSocketFrame("当前服务器时间" + LocalDateTime.now()));

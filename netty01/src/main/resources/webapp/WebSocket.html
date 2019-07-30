@@ -89,6 +89,7 @@
             return;
         }
         if(socket.readyState == WebSocket.OPEN) {
+            console.log("ready");
             socket.send(message);
         } else {
             alert("连接尚未开启！");
