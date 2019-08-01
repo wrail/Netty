@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="con.wrial.netty01.main" target="1.8" />
       <module name="con.wrial.netty01.test" target="1.8" />
+      <module name="Netty.netty01.main" target="1.8" />
+      <module name="Netty.netty01.test" target="1.8" />
       <module name="netty01.main" target="1.8" />
       <module name="netty01.test" target="1.8" />
     </bytecodeTargetLevel>

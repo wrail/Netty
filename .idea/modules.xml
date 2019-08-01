@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Netty.netty01.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Netty.netty01.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Netty.netty01.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Netty.netty01.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/con.wrial.netty01.main.iml" filepath="$PROJECT_DIR$/.idea/modules/con.wrial.netty01.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/con.wrial.netty01.test.iml" filepath="$PROJECT_DIR$/.idea/modules/con.wrial.netty01.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty01.iml" filepath="$PROJECT_DIR$/.idea/modules/netty01.iml" />
